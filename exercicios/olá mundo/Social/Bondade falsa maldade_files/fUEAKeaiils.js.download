@@ -1,0 +1,7 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["\/Wbau49"]); }
+
+__d("FbNoteEditorEventFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("512");c=b("FalcoLoggerInternal").create("fb_note_editor_event",a);e.exports=c}),null);
+__d("FbNoteReaderEventFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("828");c=b("FalcoLoggerInternal").create("fb_note_reader_event",a);e.exports=c}),null);
+__d("NoteAttachmentClickedFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("830");c=b("FalcoLoggerInternal").create("note_attachment_clicked",a);e.exports=c}),null);
+__d("NoteSproutClickedFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("829");c=b("FalcoLoggerInternal").create("note_sprout_clicked",a);e.exports=c}),null);
+__d("PagesCometAdminEditingAddWhatsAppNumberDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4996995596996191"}),null);

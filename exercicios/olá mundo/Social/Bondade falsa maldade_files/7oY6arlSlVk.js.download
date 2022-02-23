@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["cIBUA3k"]); }
+
+__d("GroupsCometChatsRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4979062805450337"}),null);
+__d("GroupsCometChatsRootQuery$Parameters",["GroupsCometChatsRootQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("GroupsCometChatsRootQuery_facebookRelayOperation"),metadata:{},name:"GroupsCometChatsRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("GroupsCometChatsRoot.entrypoint",["GroupsCometChatsRootQuery$Parameters","JSResourceForInteraction","buildGroupCometRootRoute.entrypoint"],(function(a,b,c,d,e,f,g){"use strict";a=c("buildGroupCometRootRoute.entrypoint")(c("JSResourceForInteraction")("GroupsCometChatsRoot.react").__setRef("GroupsCometChatsRoot.entrypoint"),function(a){var c,d=a.routeParams;a=a.routeProps.groupID;c=(c=d.hashtag)!=null?c:null;d=(d=d.t)!=null?d:"";var e=d!=="";e={autoOpenChat:e,groupID:a,hashtag:c,threadID:d};return{extraProps:{hashtag:c},queries:{queryReference:{parameters:b("GroupsCometChatsRootQuery$Parameters"),variables:e}}}});g["default"]=a}),98);

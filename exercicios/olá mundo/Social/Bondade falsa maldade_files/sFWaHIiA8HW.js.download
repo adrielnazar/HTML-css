@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["l2+QyxX"]); }
+
+__d("GroupsCometFilesTabRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4082514048503036"}),null);
+__d("GroupsCometFilesTabRootQuery$Parameters",["GroupsCometFilesTabRootQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("GroupsCometFilesTabRootQuery_facebookRelayOperation"),metadata:{},name:"GroupsCometFilesTabRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("GroupsCometFilesTabRoot.entrypoint",["GroupsCometFilesTabRootQuery$Parameters","JSResourceForInteraction","WebPixelRatio","buildGroupCometRootRoute.entrypoint"],(function(a,b,c,d,e,f,g){"use strict";a=c("buildGroupCometRootRoute.entrypoint")(c("JSResourceForInteraction")("GroupsCometFilesTabRoot.react").__setRef("GroupsCometFilesTabRoot.entrypoint"),function(a){a=a.routeProps;a=a.groupID;return{queries:{queryReference:{parameters:b("GroupsCometFilesTabRootQuery$Parameters"),variables:{groupDocsFileName:null,groupID:a,orderby:null,scale:d("WebPixelRatio").get()}}}}});g["default"]=a}),98);

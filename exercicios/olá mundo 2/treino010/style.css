@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idrois';
+    src: url(fontes/idroid.otf);
+}
+
+
+body {
+    background-color: #f5f4c7;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #56E094;
+    color: white;
+    margin: -22px -8px -0px -8px;
+    padding: 3px;
+    background-image: linear-gradient(to bottom, #56E094, #14472c);
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.459);
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.459);
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursiva, Arial ;
+    font-size: 3em;
+    margin: auto;
+    padding: 40px 0px 12px 0px;
+    font-weight: normal;
+}
+
+header > ul {
+    padding: 0px;
+}
+
+header > ul > li {
+    text-align: left;
+    padding: 5px 10px;
+    display: inline;
+    border-radius: 4px;
+}
+
+header > ul > li:hover {
+    background-color: #56E094;
+}
+
+header ul > li > a {
+    text-decoration: none;
+    color: white ;
+}
+
+header ul > li > a:hover {
+    color: rgb(4, 68, 14);
+    animation-iteration-count: unset;
+}
+
+.posicao{
+    text-align: justify;
+}
+
+main {
+    background-color: white;
+    margin: 0px 20% 30px 20%;
+    padding: 13px;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.459);
+}
+
+main > h1 {
+    color: #1C5D39;
+    font-family: 'idrois';
+}
+
+main > h2 {
+    color: #1C5D39;
+    font-family: 'idrois';
+    background-image: linear-gradient(to right, #56e09488, #ffffff);
+    padding-left: 9px;
+}
+
+main > div#video {
+    background-color: rgb(4, 68, 14);
+    padding: 20px 100px ;
+    margin: 0px -13px;
+}
+
+
+
+main > div#topo {
+    background-color: #1A5C38;
+    color: white;
+    padding: 2px 0px 3px 8px;
+    margin-top: 20px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.459);
+}
+
+main > div#topo > h3 {
+    margin: 11px;
+}
+
+main > div#fundo{
+    background-color: #56E094;
+    border-radius: 0px 0px 30px 30px;
+    padding: 1px 10px 10px 10px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.459);
+}
+
+main > div#fundo > div {
+    display: inline;
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    margin: -2px -8px -8px -8px;
+    padding: 2px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
